@@ -1,7 +1,7 @@
 
 # AutonomousFlight
 Deep Reinforcement Based Autonomous Flight
-<img src="img/img1.png">
+<img src="img/img1.png" width="300" height="300">
 
 # Features
 - Utilized the latest versions of Gazebo Simulator (Gazebo Garden), PX4 (v1.14)
