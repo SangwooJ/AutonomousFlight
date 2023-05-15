@@ -8,3 +8,5 @@ Deep Reinforcement Based Autonomous Flight
 - Implemented advanced Deep Reinforcement Learning (DRL) for local navigation
 
 <img src="img/img1.png" width="300" height="300">
+
+# Gazebo Environment
