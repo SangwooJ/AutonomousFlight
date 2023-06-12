@@ -63,6 +63,12 @@ rosdep resolve gz-garden
 
 Try this example after installation [https://gazebosim.org/docs/garden/ros2_integration](https://gazebosim.org/docs/garden/ros2_integration)
 
+### PX4 - ROS2 Configuration
+
+Setup Micro XRCE-DDS Agent & Client  
+<img scr="https://docs.px4.io/main/assets/img/architecture_xrce-dds_ros2.fed61809.svg" >
+[https://docs.px4.io/main/en/ros/ros2_comm.html](https://docs.px4.io/main/en/ros/ros2_comm.html)
+
 # Progress
 
 ## Gazebo Environment 
