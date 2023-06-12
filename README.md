@@ -34,31 +34,32 @@ rosdep update
 <!-- check that resolve works --> 
 rosdep resolve gz-garden
 ```
-- Installing (ros_gz packages)[https://github.com/gazebosim/ros_gz/tree/humble] which includes ros_gz_bridge 
-Create a colcon workspace:
-```
-export GZ_VERSION=garden
-<!-- Setup the workspace -->
-mkdir -p ~/ws/src
-cd ~/ws/src
-```
-Install dependencies (this may also install Gazebo):
-```
-cd ~/ws
-rosdep install -r --from-paths src -i -y --rosdistro humble
-```
-Build the workspace:
-```
-<!-- Source ROS distro's setup.bash -->
-source /opt/ros/humble/setup.bash
+- Installing (ros_gz packages)[https://github.com/gazebosim/ros_gz/tree/humble] which includes ros_gz_bridge
 
-<!-- Build and install into workspace -->
-cd ~/ws
-colcon build
+  Create a colcon workspace:
+  ```
+  export GZ_VERSION=garden
+  <!-- Setup the workspace -->
+  mkdir -p ~/ws/src
+  cd ~/ws/src
+  ```
+  Install dependencies (this may also install Gazebo):
+  ```
+  cd ~/ws
+  rosdep install -r --from-paths src -i -y --rosdistro humble
+  ```
+  Build the workspace:
+  ```
+  <!-- Source ROS distro's setup.bash -->
+  source /opt/ros/humble/setup.bash
 
-<!-- Download needed software -->
-git clone https://github.com/gazebosim/ros_gz.git -b humble
-```
+  <!-- Build and install into workspace -->
+  cd ~/ws
+  colcon build
+
+  <!-- Download needed software -->
+  git clone https://github.com/gazebosim/ros_gz.git -b humble
+  ```
 
 
 # Progress
