@@ -8,7 +8,7 @@ Deep Reinforcement Based Autonomous Flight
 - Implemented advanced Deep Reinforcement Learning (DRL) for local navigation
 
 
-# Progress
+# Setup 
 
 ## PX4 setup
 Use the ubuntu.sh script in PX4 repo will install PX4&Gazebo Garden on Ubuntu 22.04. 
@@ -31,13 +31,13 @@ Check the "Using a specific and unsupported Gazebo version with ROS 2" in the fo
 ```
 sudo bash -c 'wget https://raw.githubusercontent.com/osrf/osrf-rosdep/master/gz/00-gazebo.list -O /etc/ros/rosdep/sources.list.d/00-gazebo.list'
 rosdep update
-# check that resolve works
+<!-- check that resolve works --> 
 rosdep resolve gz-garden
 ```
 - Installing (ros_gz packages)[https://github.com/gazebosim/ros_gz/tree/humble] which includes ros_gz_bridge 
 ```
 export GZ_VERSION=garden
-# Setup the workspace
+<!-- Setup the workspace -->
 mkdir -p ~/ws/src
 cd ~/ws/src
 ```
@@ -46,20 +46,21 @@ cd ~/ws/src
 cd ~/ws
 rosdep install -r --from-paths src -i -y --rosdistro humble
 ```
+
 ```
-```
-### Source ROS distro's setup.bash
+<!-- Source ROS distro's setup.bash -->
 source /opt/ros/humble/setup.bash
 
-# Build and install into workspace
+<!-- Build and install into workspace -->
 cd ~/ws
 colcon build
-```
 
-# Download needed software
+<!-- Download needed software -->
 git clone https://github.com/gazebosim/ros_gz.git -b humble
 ```
-```
+
+
+# Progress
 
 ## Gazebo Environment 
 
