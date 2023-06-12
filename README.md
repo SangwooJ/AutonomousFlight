@@ -61,11 +61,11 @@ rosdep resolve gz-garden
   git clone https://github.com/gazebosim/ros_gz.git -b humble
   ```
 
-Try this example after installation [https://gazebosim.org/docs/garden/ros2_integration](https://gazebosim.org/docs/garden/ros2_integration)
+Try this example after installation from [https://gazebosim.org/docs/garden/ros2_integration](https://gazebosim.org/docs/garden/ros2_integration)
 
 ### PX4 - ROS2 Configuration
 
-Setup Micro XRCE-DDS Agent & Client [https://docs.px4.io/main/en/ros/ros2_comm.html](https://docs.px4.io/main/en/ros/ros2_comm.html)
+Setup Micro XRCE-DDS Agent & Client from [https://docs.px4.io/main/en/ros/ros2_comm.html](https://docs.px4.io/main/en/ros/ros2_comm.html)
 <img src="https://docs.px4.io/main/assets/img/architecture_xrce-dds_ros2.fed61809.svg">
 
 ## QGroundControl
