@@ -61,6 +61,7 @@ rosdep resolve gz-garden
   git clone https://github.com/gazebosim/ros_gz.git -b humble
   ```
 
+Try this example after installation [https://gazebosim.org/docs/garden/ros2_integration](https://gazebosim.org/docs/garden/ros2_integration)
 
 # Progress
 
