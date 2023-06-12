@@ -62,6 +62,10 @@ rosdep resolve gz-garden
   ```
 
 Try this example after installation from [https://gazebosim.org/docs/garden/ros2_integration](https://gazebosim.org/docs/garden/ros2_integration)
+You need to source to use ros_gz_bridge
+```
+source ~/ws/install/setup.bash
+```
 
 ### PX4 - ROS2 Configuration
 
