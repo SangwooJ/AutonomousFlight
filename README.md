@@ -41,12 +41,14 @@ export GZ_VERSION=garden
 mkdir -p ~/ws/src
 cd ~/ws/src
 ```
+
 ```
 cd ~/ws
 rosdep install -r --from-paths src -i -y --rosdistro humble
 ```
 ```
-# Source ROS distro's setup.bash
+```
+### Source ROS distro's setup.bash
 source /opt/ros/humble/setup.bash
 
 # Build and install into workspace
@@ -57,7 +59,7 @@ colcon build
 # Download needed software
 git clone https://github.com/gazebosim/ros_gz.git -b humble
 ```
-
+```
 
 ## Gazebo Environment 
 
