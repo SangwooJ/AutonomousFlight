@@ -2,7 +2,7 @@
 # AutonomousFlight
 Deep Reinforcement Based Autonomous Flight
 
-# Features
+# Features (in progress )
 - Utilized the latest versions of Gazebo (Ignition) Simulator (Gazebo Garden), PX4 (v1.14) on Ubuntu 22.04
 - Support ROS2(Humble) based PX4 offboard control
 - Implemented advanced Deep Reinforcement Learning (DRL) for local navigation
