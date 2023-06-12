@@ -78,14 +78,15 @@ Download QGC from [http://qgroundcontrol.com/](http://qgroundcontrol.com/)
 
 # Progress
 
-## Gazebo Environment 
-
+- Init
 ```
 make px4_sitl gz_x500
 ```
+
 <img src="img/img1.png" width="300" height="300">
 
 - Implemented Lidar sensor
 <img src="img/lidar_screenshot.png" width="300" height="300">
 
-
+- Implemented ROS2
+<img src="img/setup_complete.png" width="300" height="300">
