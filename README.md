@@ -89,4 +89,4 @@ make px4_sitl gz_x500
 <img src="img/lidar_screenshot.png" width="300" height="300">
 
 - Implemented ROS2
-<img src="img/setup_complete.png" width="300" height="300">
+<img src="img/setup_complete.png" >
