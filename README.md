@@ -25,7 +25,7 @@ source /opt/ros/humble/setup.bash
 ### Gazebo - ROS2 Configuration
 
 Check the "Using a specific and unsupported Gazebo version with ROS 2" in the following link [https://gazebosim.org/docs/garden/ros_installation](https://gazebosim.org/docs/garden/ros_installation)
--> some command should be modified follow the instrutions below. 
+-> some command should be modified,follow the instrutions below. 
 
 - Installing rosdep rules to resolve Gazebo Garden libraries
 ```
