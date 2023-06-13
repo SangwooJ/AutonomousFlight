@@ -85,7 +85,7 @@ make px4_sitl gz_x500
 
 <img src="img/img1.png" width="300" height="300">
 
-- Implemented Lidar sensor
+- Implemented Lidar sensor : [modified model](models/x500-lidar.sdf)
 <img src="img/lidar_screenshot.png" width="300" height="300">
 
 - Implemented ROS2
