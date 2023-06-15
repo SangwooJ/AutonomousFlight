@@ -4,14 +4,14 @@ Deep Reinforcement Based Autonomous Flight
 
 # Features (in progress )
 ## Phase 0
-- Utilized the latest versions of Gazebo (Ignition) Simulator (Gazebo Garden), PX4 (v1.14) on Ubuntu 22.04
-- Support ROS2(Humble) based PX4 offboard control
+- [x] Utilized the latest versions of Gazebo (Ignition) Simulator (Gazebo Garden), PX4 (v1.14) on Ubuntu 22.04
+- [x] Support ROS2(Humble) based PX4 offboard control
 ## Phase 1
-- Implement Lidar to X500 model
-- Implement advanced Deep Reinforcement Learning (DRL) for local navigation
+- [x] Implement Lidar to X500 model
+- [ ] Implement advanced Deep Reinforcement Learning (DRL) for local navigation
 ## Phase 2 
-- Implement SLAM 
-- Implement Global Path Planning 
+- [ ] Implement SLAM 
+- [ ] Implement Global Path Planning 
 
 
 # Setup 
