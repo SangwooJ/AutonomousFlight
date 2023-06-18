@@ -96,3 +96,23 @@ make px4_sitl gz_x500
 
 - Implemented ROS2
 <img src="img/setup_complete.png" >
+
+- Run offboard example
+Run MicroXRCEAgent
+```
+MicroXRCEAgent udp4 -p 8888
+```
+Run QGC & TakeOff & change it to Offboard Control mode
+```
+mkdir example_ws
+cd example_ws
+mkdir src
+git clone https://github.com/PX4/px4_msgs.git
+git clone https://github.com/PX4/px4_ros_com.git src/px4_ros_com
+git clone https://github.com/Jaeyoung-Lim/px4-offboard.git src/px4-offboard
+colcon build
+source ../example_ws/install/setup.bash
+ros2 topic echo /fmu/out/vehicle_status
+ros2 launch px4_offboard offboard_position_control.launch.py
+```
+
