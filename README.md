@@ -98,6 +98,7 @@ make px4_sitl gz_x500
 <img src="img/setup_complete.png" >
 
 - Run offboard example
+  
   Run MicroXRCEAgent
   ```
   MicroXRCEAgent udp4 -p 8888
