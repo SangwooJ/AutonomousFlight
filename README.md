@@ -104,6 +104,8 @@ make px4_sitl gz_x500
   MicroXRCEAgent udp4 -p 8888
   ```
   Run QGC & TakeOff & change it to Offboard Control mode
+  
+  Install Px4_ros_com & px4_mgs, and run offboard example
   ```
   mkdir example_ws
   cd example_ws
