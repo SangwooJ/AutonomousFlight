@@ -119,4 +119,4 @@ ros2 topic echo /fmu/out/vehicle_status
 ros2 launch px4_offboard offboard_position_control.launch.py
 ```
 - demo video
-[![Video Label](http://img.youtube.com/vi/KwZc0zg-js4/0.jpg)](https://www.youtube.com/watch?v=KwZc0zg-js4)
+[![Video Label](http://img.youtube.com/vi/KwZc0zg-js4/0.jpg)](https://youtu.be/KwZc0zg-js4)
