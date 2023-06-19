@@ -84,38 +84,38 @@ Download QGC from [http://qgroundcontrol.com/](http://qgroundcontrol.com/)
 
 # Progress
 
-- Init
+## Init
 ```
 make px4_sitl gz_x500
 ```
 
 <img src="img/img1.png" width="300" height="300">
 
-- Implemented Lidar sensor : [modified model](models/x500-lidar.sdf)
+## Implemented Lidar sensor : [modified model](models/x500-lidar.sdf)
 <img src="img/lidar_screenshot.png" width="300" height="300">
 
-- Implemented ROS2
+## Implemented ROS2
 <img src="img/setup_complete.png" >
 
-- Run offboard example
+## Running offboard example
   
-  Run MicroXRCEAgent
-  ```
-  MicroXRCEAgent udp4 -p 8888
-  ```
-  Run QGC & TakeOff & change it to Offboard Control mode
-  
-  Install Px4_ros_com & px4_mgs, and run offboard example
-  ```
-  mkdir example_ws
-  cd example_ws
-  mkdir src
-  git clone https://github.com/PX4/px4_msgs.git
-  git clone https://github.com/PX4/px4_ros_com.git src/px4_ros_com
-  git clone https://github.com/Jaeyoung-Lim/px4-offboard.git src/px4-offboard
-  colcon build
-  source ../example_ws/install/setup.bash
-  ros2 topic echo /fmu/out/vehicle_status
-  ros2 launch px4_offboard offboard_position_control.launch.py
-  ```
+- Run MicroXRCEAgent
+```
+MicroXRCEAgent udp4 -p 8888
+```
+- Run QGC & TakeOff & change it to Offboard Control mode
+
+- Install Px4_ros_com & px4_mgs, and run offboard example
+```
+mkdir example_ws
+cd example_ws
+mkdir src
+git clone https://github.com/PX4/px4_msgs.git
+git clone https://github.com/PX4/px4_ros_com.git src/px4_ros_com
+git clone https://github.com/Jaeyoung-Lim/px4-offboard.git src/px4-offboard
+colcon build
+source ../example_ws/install/setup.bash
+ros2 topic echo /fmu/out/vehicle_status
+ros2 launch px4_offboard offboard_position_control.launch.py
+```
 
