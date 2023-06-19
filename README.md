@@ -67,11 +67,11 @@ rosdep resolve gz-garden
   git clone https://github.com/gazebosim/ros_gz.git -b humble
   ```
 
-Try this example & check supported msgs after installation from [https://gazebosim.org/docs/garden/ros2_integration](https://gazebosim.org/docs/garden/ros2_integration)
-You need to source to use ros_gz_bridge
-```
-source ~/ws/install/setup.bash
-```
+  Try this example & check supported msgs after installation from [https://gazebosim.org/docs/garden/ros2_integration](https://gazebosim.org/docs/garden/ros2_integration)
+  You need to source to use ros_gz_bridge
+  ```
+  source ~/ws/install/setup.bash
+  ```
 
 ### PX4 - ROS2 Configuration
 
